@@ -22,7 +22,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-execfile('zerorpc/version.py')
+exec(open(file('zerorpc/version.py').read())
 import sys
 
 
